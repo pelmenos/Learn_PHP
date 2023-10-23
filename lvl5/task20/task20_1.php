@@ -1,5 +1,5 @@
 <?php
-function moreThanTwo(int $num) {
+function moreThanTwo(int $num): bool {
     return $num >= 2;
 }
 $line = trim(fgets(STDIN));

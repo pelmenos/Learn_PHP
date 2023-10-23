@@ -1,5 +1,5 @@
 <?php
-function multiplyTwoNumByTwo(int &$x, int &$y) {
+function multiplyTwoNumByTwo(int &$x, int &$y): void {
     $x *= 2;
     $y *= 2;
 }

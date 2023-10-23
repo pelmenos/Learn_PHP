@@ -1,5 +1,5 @@
 <?php
-function minFloat(float $x, float $y, float $z)
+function minFloat(float $x, float $y, float $z): float
 {
     $min = $x;
     if ($min > $y) $min = $y;

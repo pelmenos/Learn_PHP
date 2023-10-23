@@ -1,5 +1,5 @@
 <?php
-function countInArray(array $array, int $num)
+function countInArray(array $array, int $num): int
 {
     $i = 0;
     foreach ($array as $item) {

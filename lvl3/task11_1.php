@@ -1,5 +1,5 @@
 <?php
-function numbers(int $x) {
+function numbers(int $x): void {
     if ($x == 0) {
         echo $x;
         return;
@@ -8,7 +8,7 @@ function numbers(int $x) {
     echo ', ' . $x;
 }
 
-function factorial(int $y) {
+function factorial(int $y): int {
     if ($y == 1) {
         return 1;
     }

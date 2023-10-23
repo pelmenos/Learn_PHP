@@ -1,5 +1,5 @@
 <?php
-function wholeNumbers($x) {
+function wholeNumbers($x): void {
     if ($x === 0) {
         echo $x;
         return;

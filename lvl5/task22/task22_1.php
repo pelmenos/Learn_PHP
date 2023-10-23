@@ -1,5 +1,5 @@
 <?php
-function array_multiple(array $nums, $exKey) {     //по хорошему надо назвать arrayMultiple,
+function array_multiple(array $nums, $exKey): int {     //по хорошему надо назвать arrayMultiple,
     $result = 1;                                 // но все функции над массивами в php писались через подчеркивание
     foreach ($nums as $key => $num){
         if ($exKey != $key){
