@@ -7,7 +7,6 @@ use MyProject\Exceptions\ForbiddenException;
 use MyProject\Exceptions\InvalidArgumentException;
 use MyProject\Exceptions\NotFoundException;
 use MyProject\Exceptions\UnauthorizedException;
-use MyProject\Models\Articles\Article;
 use MyProject\Models\Comments\Comment;
 
 class CommentsController extends AbstractController

@@ -8,7 +8,6 @@ use MyProject\Models\Users\User;
 use MyProject\Models\Users\UserActivationService;
 use MyProject\Models\Users\UsersAuthService;
 use MyProject\Services\EmailSender;
-use MyProject\View\View;
 
 class UsersController extends AbstractController
 {
