@@ -2,8 +2,8 @@
 
 class Cat
 {
-    private $name;
-    private $color;
+    private string $name;
+    private string $color;
 
     public function __construct(string $name, string $color)
     {

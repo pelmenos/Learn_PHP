@@ -2,8 +2,8 @@
 
 class Post
 {
-    protected $title;
-    protected $text;
+    protected string $title;
+    protected string $text;
 
     public function __construct(string $title, string $text)
     {

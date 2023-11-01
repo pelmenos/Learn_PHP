@@ -1,7 +1,7 @@
 <?php
 abstract class HumanAbstract
 {
-    private $name;
+    private string $name;
 
     public function __construct(string $name)
     {
